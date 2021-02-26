@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<args>
+    <numEpochs>100</numEpochs>
+    <inputChannels>3</inputChannels>
+    <outputChannels>3</outputChannels>
+    <fromTFRecord>True</fromTFRecord>
+    <initLR>1e-4</initLR>
+    <decaySteps>100</decaySteps>
+    <decayRate>0.9</decayRate>
+    <checkpointPath>checkpoints/train</checkpointPath>
+    <restoreCheckpoint>False</restoreCheckpoint>
+    <visualization>True</visualization>
+</args>
